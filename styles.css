@@ -1,9 +1,5 @@
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
   height: 150vh;
-
 }
 
 #scrollImage {
@@ -13,11 +9,5 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
