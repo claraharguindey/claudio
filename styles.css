@@ -3,7 +3,9 @@
 }
 
 #scrollImage {
-  width: 400px;
+  max-width: 30%;
+  max-height: 30%;
+  width: auto;
   height: auto;
   position: fixed;
   top: 50%;
@@ -11,3 +13,13 @@
   transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    height: 150vh;
+  }
+  
+  #scrollImage {
+    max-width: 70%;
+    max-height: 70%;
+  }
+}
